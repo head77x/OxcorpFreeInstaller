@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Installer>
+    <Name>ZunoStockTracker</Name>
+    <Version>1.0.0.0</Version>
+    <Title>ZUNO Installer</Title>
+    <Publisher>Oxcorp Ltd</Publisher>
+    <StartMenuDir>ZUNO Stock Tracker</StartMenuDir>
+    <TargetDir>@HomeDir@/ZUNO</TargetDir>
+    <InstallerApplicationIcon>../assets/icon.ico</InstallerApplicationIcon>
+    <WizardStyle>Modern</WizardStyle>
+</Installer>
