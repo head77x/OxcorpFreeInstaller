@@ -111,17 +111,56 @@ You can distribute `tools/OxcorpInstaller.exe` as your single installer.
 
 ---
 
+## 📦 5. Hosting and Updating Your App
+
+To distribute your application via remote server:
+
+### 📁 Initial Setup
+
+1. **Create `basic.zip`**
+
+   * Include your compiled app executable and all required subfolders
+   * Name it `basic.zip` and upload it to your server at:
+     `https://your-server.com/updates/basic.zip`
+
+2. **Create `version.txt`**
+
+   * A plain text file containing the version string, e.g., `v1001` or `1.0.0.1`
+   * Upload to:
+     `https://your-server.com/version.txt`
+
+### 🔁 For Each Update
+
+3. **Update `version.txt`**
+
+   * Change the version string to a new value (e.g., `v1002`)
+
+4. **Upload Full Zip as `[version].zip`**
+
+   * Create a full new zip archive of your entire app (same structure as `basic.zip`)
+   * Upload it to:
+     `https://your-server.com/updates/v1002.zip`
+
+> ⚠️ The default logic **always downloads only the latest version zip** if the local version is older.
+> For this reason, it's strongly recommended to **upload complete builds** as versioned `.zip` files (not just diffs).
+
+> If you want to change the logic to allow downloading multiple versions or managing per-file updates,
+> **you'll need to modify the launcher code accordingly.**
+
+---
+
 ## 📂 Project Structure
 
 ```
 /launcher/                    → Qt-based Launcher source code
 /packages/com.oxcorp.launcher/ → Qt Installer Framework package
 /config/config.xml            → Installer branding and metadata
-/build_installer.ps1          → Build script to generate final .exe
+/build_installer.ps1          → Script to generate the final installer
 /tools/OxcorpInstaller.exe    → Output installer
 ```
 
 ---
+
 
 ## 🤝 Contribution
 
