@@ -9,10 +9,6 @@ It supports remote update detection, zip-based asset deployment, and custom GUI 
 
 ---
 
-물론입니다. 요청하신 내용을 반영하여 `README.md`의 해당 위치에 **`windeployqt` 실행 단계**를 정확히 이어서 기술한 버전입니다:
-
----
-
 ## 🔧 1. Building and Customizing the Launcher
 
 ### ✅ Build the Launcher
