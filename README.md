@@ -1,7 +1,22 @@
+```
+   ____  __   ______  ______  ____  ____  
+  / __ \/ /  / __ \ \/ / __ \/ __ \/ __ \ 
+ / / / / /__/ / / /\  / / / / / / / /_/ / 
+/ /_/ /____/ /_/ / / / /_/ / /_/ / ____/  
+\____/     \____/_/_/\____/\____/_/       
+
+       Open Software & AI Tools by OXCORP
+```
 
 ---
 
-````markdown
+**OXCORP.NINJA** is a creative engineering company that regularly releases free software and open-source developer tools.  
+We specialize in Qt, AI automation, and cross-platform deployment tools.
+
+Visit us at 🌐 **[https://www.oxcorp.ninja](https://www.oxcorp.ninja)**
+
+---
+
 # Oxcorp Free Installer
 
 **Oxcorp Free Installer** is an open-source Qt-based installer and launcher system designed for Windows applications.  
@@ -161,10 +176,14 @@ To distribute your application via remote server:
 
 ---
 
-
 ## 🤝 Contribution
 
 We welcome contributions, issue reports, and feature requests.
 Feel free to fork this repository and adapt it for your application!
 
 ---
+
+## 📄 License
+
+MIT License © 2025 Oxcorp Limited  
+This project includes components using the Qt LGPL license. See LICENSE file for full details.
