@@ -79,7 +79,7 @@ debug/icon_res.o: icon.rc
 	windres -i icon.rc -o debug\icon_res.o --include-dir=. $(DEFINES)
 
 qmake: FORCE
-	@$(QMAKE) -o Makefile.Debug Oxlauncher.pro -nocache
+	@$(QMAKE) -o Makefile.Debug Oxlauncher.pro
 
 qmake_all: FORCE
 

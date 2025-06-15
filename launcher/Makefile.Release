@@ -79,7 +79,7 @@ release/icon_res.o: icon.rc
 	windres -i icon.rc -o release\icon_res.o --include-dir=. $(DEFINES)
 
 qmake: FORCE
-	@$(QMAKE) -o Makefile.Release Oxlauncher.pro -nocache
+	@$(QMAKE) -o Makefile.Release Oxlauncher.pro
 
 qmake_all: FORCE
 

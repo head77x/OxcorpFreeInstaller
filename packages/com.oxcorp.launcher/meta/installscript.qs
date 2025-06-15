@@ -5,6 +5,7 @@ Component.prototype.createOperations = function() {
 
     var installPath = installer.value("TargetDir");
     var appName = installer.value("ProductName");
+    var exePath = installPath + "/OxLauncher.exe";
 
     var baseUrl = "https://oxcorpimages.s3.us-east-1.amazonaws.com/launchers/zuno";
     var versionUrl = "https://oxcorpimages.s3.us-east-1.amazonaws.com/launchers/zuno/version.txt";
@@ -17,15 +18,15 @@ Component.prototype.createOperations = function() {
     component.addOperation("CreateShortcut",
         exePath,
         "@StartMenuDir@/" + appName + ".lnk",
-        "WorkingDirectory=@TargetDir@",
-        "IconPath=" + exePath
+        "workingDirectory=@TargetDir@",
+        "iconPath=" + exePath
     );
 
     component.addOperation("CreateShortcut",
         exePath,
         "@DesktopDir@/" + appName + ".lnk",
-        "WorkingDirectory=@TargetDir@",
-        "IconPath=" + exePath
+        "workingDirectory=@TargetDir@",
+        "iconPath=" + exePath
     );
 
     console.log("Environment variables set and shortcuts created.");

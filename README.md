@@ -56,7 +56,7 @@ windeployqt OxLauncher.exe
 To rename the launcher binary and set your own icon:
 
 * Rename the `.exe` after build: e.g., `MyAppLauncher.exe`
-* Replace the icon via `launcher/icon.rc` and `launcher/assets/icon.ico`
+* Replace the icon via `launcher/icon.rc` and `launcher/icon.ico`
 * Update the executable name reference in `installscript.qs` (see below)
 
 ---
@@ -92,7 +92,7 @@ To configure these URLs:
 Edit:
 
 ```
-packages/com.oxcorp.launcher/installscript.qs
+packages/com.oxcorp.launcher/meta/installscript.qs
 ```
 
 Update these lines:
