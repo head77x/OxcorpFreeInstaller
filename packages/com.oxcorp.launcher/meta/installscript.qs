@@ -5,7 +5,7 @@ Component.prototype.createOperations = function() {
 
     var installPath = installer.value("TargetDir");
     var appName = installer.value("ProductName");
-    var exePath = installPath + "/OxLauncher.exe";
+    var exePath = installPath + "/Oxlauncher.exe";
 
     var baseUrl = "https://oxcorpimages.s3.us-east-1.amazonaws.com/launchers/zuno";
     var versionUrl = "https://oxcorpimages.s3.us-east-1.amazonaws.com/launchers/zuno/version.txt";

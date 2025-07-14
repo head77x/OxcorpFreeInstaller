@@ -2,7 +2,7 @@
 $projectRoot = Resolve-Path ".."
 $releaseDir = "$projectRoot\launcher\release"
 $dataDir = "$projectRoot\packages\com.oxcorp.launcher\data"
-$binarycreator = "binarycreator.exe"
+$binarycreator = "C:\Qt\Tools\QtInstallerFramework\4.9\bin\binarycreator.exe"
 $config = "$projectRoot\config\config.xml"
 $packages = "$projectRoot\packages"
 $output = "$projectRoot\tools\OxcorpInstaller.exe"

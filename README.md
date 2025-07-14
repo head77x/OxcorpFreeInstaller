@@ -44,6 +44,7 @@ This will output the launcher binary in `launcher/release`.
 
 ```bash
 windeployqt OxLauncher.exe
+./complete_deploy.ps1
 ```
 
 > Make sure you run this command **inside the `launcher/release` folder**.
